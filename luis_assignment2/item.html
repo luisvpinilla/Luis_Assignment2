@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta tags-->
+    <meta charset="utf-8">
+    <meta name="happyPawsP2P" content="P2P Marketplace">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS stylesheet-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- add bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- add fonts and icons from Font Awesome-->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <title>HAPPY PAWS</title>
+
+</head>
+
+<body>
+
+<!-- Navegation-->
+<nav class="navbar navbar-expand-md navbar-light bg-light justify-content-between static-top navbar-custom">
+    <div class="container-fluid">
+
+      <!-- footer: center-->
+      <ul class="nav navbar-left">
+        <li class="nav-item"><a class="navbar-brand" href="#"><img src="./img/happyPAWS.png" alt="logoFooter"></a></li>
+      </ul>
+  
+      <!-- footer: right-side-->
+      <ul class="nav navbar-right">
+        <li class="nav-item"><a class="nav-link text-danger" href="#"><i class="fa fa-shopping-cart"></i> Cart</a></li>
+        <li class="nav-item"><a class="nav-link text-danger" href="#">Hello, Luis</a></li>
+      </ul>
+    </div>
+</nav>
+
+<!-- Navegation pages -->  
+
+<nav class="navbar navbar-expand-md navbar-danger bg-danger justify-content-between static-top navbar-custom">
+  <div class="container-fluid">
+
+    <!-- navbar: left-side-->
+    <ul class="nav navbar-left">
+      <li class="nav-item active"><a class="nav-link text-light" href="#">Home</a></li>
+      <li class="nav-item"><a class="nav-link text-light" href="#">Blog</a></li>
+      <li class="nav-item"><a class="nav-link text-light" href="#">How It Works</a></li>
+      <li class="nav-item"><a class="nav-link text-light" href="#">Become a Pet Sitter</a></li>
+    </ul>
+
+    <!-- navbar: right-side-->
+    <ul class="nav navbar-right">
+        <form class="form-inline">
+            <div class="input-group">                    
+                <input type="text" class="search-control" placeholder="Search">
+                <div class="input-group-append">
+                    <button type="button" class="btn btn-light"><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+        </form>
+    </ul>
+  </div>
+</nav> <!-- end of navbar pages -->
+
+<!-- banner slider -->
+<div class="container-fluid">
+    <div id="bannerSlider" class="carousel slide"data-ride="carousel" data-interval="5000">
+      <ol class="carousel-indicators">
+        <li data-target="#bannerSlider" data-slide-to="0" class="active"></li>
+        <li data-target="#bannerSlider" data-slide-to="1"></li>
+        <li data-target="#bannerSlider" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox"> 
+        <div class="carousel-item active">
+          <img class= "d-block mx-auto" src="img/banner0.PNG">
+        </div>
+        <div class="carousel-item">
+          <img class= "d-block mx-auto" src="img/banner1.PNG">
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+<section class="main-container">
+<div class="container-fluid">
+    <div class="row">
+
+
+
+<!-- Categories vertical side-menu -->
+<section class="returnbutton col-lg-2">
+
+    <button type="button" class="btn btn-outline-secondary"> < GO BACK </button>
+
+</section>
+
+<!-- Add Popular layout-->
+    <section class="col-lg-9" id="navTrack">
+        <h8 class="text-uppercase text-secondary" id="popular">HOME > CATEGORY > PET PRODUCTS > BEDDING</h8>
+                
+<!-- Item details-->
+            <div class="row">
+                <div class="col-lg-5">
+                
+                <!--an image of the item-->
+                <img class="img-fluid" src="img/itemPhoto.png" alt="product">
+                </div>
+            
+                <div class="col-lg-4" id="itemDetails">
+                
+                <!--title of the item-->
+                <h3 class="itemTitle">Orthopaedic Dog Bed</h3>
+                
+                <!--description of the item-->
+                <p class="itemDescription">You & Me Orthopaedic Dog basket helps relieve your pup's pressure points with its over-stuffed foam filling.</p>
+                
+                <h4 class="bid">Starting Bid:</h4>
+
+                <!--price of the item-->
+                <h4 class="priceTag">$30</h4>
+                <div class="input-group col-lg-4"></div>
+                    <input type="text" class="form-control col-lg-4" placeholder="$0.00" aria-label="$0.00" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                    <button class="btn btn-outline-danger " type="button" id="bidButton">Place Bid</button>
+                    </div>
+                </div>
+                <!-- more information of my choice: Seller Information-->
+                <div class="col-lg-3" id="sellerInfo">
+                        <h3 class="itemTitle">Seller Information</h3>
+                        <p class="sellerID">@AliciaKeys00123</p>
+                        <h6>Contact seller</h6>
+                        <h6>Reviews</h6>
+                </div>
+        </div>
+
+                
+        </div>
+    </section>
+
+  </div> <!-- container -->
+</section><!--Main Container-->
+
+
+<!-- FOOTER -->  
+<footer>
+  <nav class="navbar navbar-expand-md navbar-danger bg-danger justify-content-between static-top navbar-custom">
+      <div class="container-fluid">
+    
+        <!-- footer: left-side-->
+        <ul class="nav navbar-left">
+          <li class="nav-item "><a class="nav-link text-light" href="#">Copyright &copy; 2019</a></li>
+        </ul>
+
+        <!-- footer: center-->
+        <ul class="nav navbar-center">
+          <li class="nav-item"><a class="navbar-brand" href="#"><img src="./img/logoFOOTER.png" alt="logoFooter"></a></li>
+        </ul>
+    
+        <!-- footer: right-side-->
+        <ul class="nav navbar-right">
+          <li class="nav-item"><a class="nav-link text-light" href="#">Support</a></li>
+        </ul>
+      </div>
+  </nav>
+</footer>
+
+</body>
+</html>

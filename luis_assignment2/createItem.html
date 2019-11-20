@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta tags-->
+    <meta charset="utf-8">
+    <meta name="happyPawsP2P" content="P2P Marketplace">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS stylesheet-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- add bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- add fonts and icons from Font Awesome-->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <title>HAPPY PAWS</title>
+
+
+</head>
+
+<body>
+
+<!-- Navegation-->
+<nav class="navbar navbar-expand-md navbar-light bg-light justify-content-between static-top navbar-custom">
+    <div class="container-fluid">
+
+      <!-- footer: center-->
+      <ul class="nav navbar-left">
+        <li class="nav-item"><a class="navbar-brand" href="#"><img src="./img/happyPAWS.png" alt="logoFooter"></a></li>
+      </ul>
+  
+      <!-- footer: right-side-->
+      <ul class="nav navbar-right">
+        <li class="nav-item"><a class="nav-link text-danger" href="#"><i class="fa fa-shopping-cart"></i> Cart</a></li>
+        <li class="nav-item"><a class="nav-link text-danger" href="#">Hello, Luis</a></li>
+      </ul>
+    </div>
+</nav>
+
+<!-- Navegation pages -->  
+
+<nav class="navbar navbar-expand-md navbar-danger bg-danger justify-content-between static-top navbar-custom">
+  <div class="container-fluid">
+
+    <!-- navbar: left-side-->
+    <ul class="nav navbar-left">
+      <li class="nav-item active"><a class="nav-link text-light" href="#">Home</a></li>
+      <li class="nav-item"><a class="nav-link text-light" href="#">Blog</a></li>
+      <li class="nav-item"><a class="nav-link text-light" href="#">How it Works</a></li>
+      <li class="nav-item"><a class="nav-link text-light" href="#">Become a Pet Sitter</a></li>
+    </ul>
+
+    <!-- navbar: right-side-->
+    <ul class="nav navbar-right">
+        <form class="form-inline">
+            <div class="input-group">                    
+                <input type="text" class="search-control" placeholder="Search">
+                <div class="input-group-append">
+                    <button type="button" class="btn btn-light"><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+        </form>
+    </ul>
+  </div>
+</nav> <!-- end of navbar pages -->
+
+<!-- banner slider -->
+<div class="container-fluid">
+    <div id="bannerSlider" class="carousel slide"data-ride="carousel" data-interval="3000">
+      <ol class="carousel-indicators">
+        <li data-target="#bannerSlider" data-slide-to="0" class="active"></li>
+        <li data-target="#bannerSlider" data-slide-to="1"></li>
+        <li data-target="#bannerSlider" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox"> 
+        <div class="carousel-item active">
+          <img class= "d-block mx-auto" src="img/banner0.PNG">
+        </div>
+        <div class="carousel-item">
+          <img class= "d-block mx-auto" src="img/banner1.PNG">
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+<section class="main-container">
+<div class="container-fluid">
+    <div class="row">
+
+
+
+<!-- Categories vertical side-menu -->
+    <section class="returnbutton col-lg-2">
+
+        <button type="button" class="btn btn-outline-secondary"> < GO BACK </button>
+
+    </section>
+
+<!-- Add Popular layout-->
+        <section class="col-lg-9" id="navTrack">
+                <h8 class="text-uppercase text-secondary" id="popular">HOME > SELL > LISTING</h8>
+                
+<!-- Item details-->
+            <div class="row">
+                <div class="col-lg-5">
+                
+                <!--an image of the item-->
+                <img class="img-fluid" src="img/upload.png" alt="product">
+
+
+                <!-- upload item image -->
+                <div class="input-group mb-3">
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="inputGroupFile02">
+                            <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">Choose file</label>
+                        </div>
+                        <div class="input-group-append">
+                            <span class="input-group-text" id="inputGroupFileAddon02">Upload</span>
+                        </div>
+                </div>
+
+                </div>
+            
+                <div class="col-lg-7" id="itemDetails">
+                
+                <!--title of the item-->
+                <form>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Title</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Type a few keywords about your product">
+                    </div>
+                    <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Description (Optional)</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Condition</label>
+                    <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                        <option selected>Choose...</option>
+                        <option value="1">Brand New</option>
+                        <option value="2">Near New</option>
+                        <option value="3">Used</option>
+                    </select>
+
+                </form>
+            
+                </div>
+
+
+
+            </div>
+
+        <section>
+            <div class="container-fluid">
+                <hr class="divider">
+
+                <h3 style="padding-bottom: 10px">Pricing</h3>
+
+                <div class="custom-control custom-radio custom-control-inline" style="padding-bottom: 10px">
+                        <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline1">Buy Now</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline2">Start Bidding</label>
+                </div>
+
+                <div class="input-group mb-3" style="padding-top: 10px">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">$</span>
+                        </div>
+                        <input type="text" class="form-control-md" aria-label="Enter Amount">
+                </div>
+
+                <br>
+                </br>
+
+                <button type="button" class="btn btn-danger btn-lg btn-block">List It</button>
+                <button type="button" class="btn btn-warning btn-lg btn-block">Preview</button>
+                <button type="button" class="btn btn-secondary btn-lg btn-block">Save for later</button>
+            </div>
+
+
+        </section>
+
+    </div>
+
+                
+    </div>
+    </section>
+
+  </div> <!-- container -->
+</section><!--Main Container-->
+
+
+<!-- FOOTER -->  
+<footer>
+  <nav class="navbar navbar-expand-md navbar-danger bg-danger justify-content-between static-top navbar-custom">
+      <div class="container-fluid">
+    
+        <!-- footer: left-side-->
+        <ul class="nav navbar-left">
+          <li class="nav-item "><a class="nav-link text-light" href="#">Copyright &copy; 2019</a></li>
+        </ul>
+
+        <!-- footer: center-->
+        <ul class="nav navbar-center">
+          <li class="nav-item"><a class="navbar-brand" href="#"><img src="./img/logoFOOTER.png" alt="logoFooter"></a></li>
+        </ul>
+    
+        <!-- footer: right-side-->
+        <ul class="nav navbar-right">
+          <li class="nav-item"><a class="nav-link text-light" href="#">Support</a></li>
+        </ul>
+      </div>
+  </nav>
+</footer>
+
+</body>
+</html>
+<!-- Item details-->
+
+    <!--title of the item-->
+
+    <!--an image of the item-->
+
+    <!--description of the item-->
+
+    <!--price of the item-->
+
+    <!--more information of my choice-->
+        

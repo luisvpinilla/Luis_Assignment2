@@ -1,0 +1,164 @@
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+body {
+    float: center;
+    background-color: white;
+}
+
+.CategoriesTitle {
+    margin-top: 10px;
+}
+/* start: Categories */
+#sideMenu {
+    position: relative;
+    background-color: #dc3545;
+    margin-top: 15px;
+}
+
+#menuContent {
+    color: white;
+    border-top: 1px solid whitesmoke;
+}
+
+#menuContent:hover {
+    color: rgb(255, 238, 0);
+    border-top: 1px solid whitesmoke;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(255, 238, 0);
+}
+/* end Categories */
+
+
+
+/* start: petSitters */
+.ppTitle {
+    margin-top: 10px;
+}
+
+.card-link {
+    color: grey;
+}
+
+.card-link:hover {
+    color: #dc3545;
+}
+
+
+.badge {
+    margin-left: 5px;
+    margin-right: 3px;
+}
+/* end petSitters */
+
+/* start: products */
+
+.returnbutton {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 1px;
+    text-align: right;
+}
+
+#navTrack {
+    margin-top: 22px;
+}
+
+.img-fluid {
+    margin-top: 15px;
+}
+
+#itemTitle {
+    font-size: 10px;
+}
+
+#itemDetails {
+    margin-top: 0px;
+    height: 0 inherit;
+}
+
+#sellerInfo {
+    font-size: 10px;
+    margin-top: 5px;
+    border: 1px solid #dc3545;
+    height: 30%;
+    
+}
+
+.sellerID {
+    color: #dc3545;
+    padding-top: 1px;
+    font-size: 14px;
+}
+
+.priceTag {
+    font-size: 30px;
+    color: #dc3545;
+    margin-top: 1px;
+    margin-bottom: 0px;
+}
+
+.bid {
+    font-size: 10px;
+    margin-top: 1px;
+}
+
+.priceTag {
+    font-size: 35px;
+    margin-top: 2px;
+}
+
+.form-control {
+    margin-top: 10px;
+}
+
+h8 {
+    font-size: 10px;
+}
+
+i {
+    font-size: 12px;
+}
+
+.price{
+    font-size: 40px;
+}
+.price:hover{
+    color: #dc3545
+}
+/* end: product */
+
+.divider {
+    border-top: 1px solid #dc3545;
+}
+
+/* start: Footer */
+
+footer {
+    background: #dc3545;
+    margin-top: 80px;
+}
+
+.footerLEFT {
+    text-align: start;
+    padding: 20px;
+}
+
+.footerCENTER {
+    text-align: center;
+    padding-top: 12px;
+}
+
+.footerRIGHT {
+    text-align: end;
+    padding: 20px;
+
+}
+/* end: Footer */
+
